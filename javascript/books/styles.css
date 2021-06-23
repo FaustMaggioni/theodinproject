@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: monospace;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(5vh,auto);
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+.book{
+    background-color: aliceblue;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30vw,1fr));
+    grid-gap: 10px;
+    grid-auto-rows: minmax(30vh,auto)
+}
+.div1{
+    border: 0.5px solid;
+    min-height: 30vh;
+}
+
+@media (max-width: 400px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 90vw;
+        grid-gap: 2rem;
+        grid-auto-rows: minmax(30vh,auto)
+    }
+    .div1{
+        border: 0.5px solid;
+    }
+    
+}
